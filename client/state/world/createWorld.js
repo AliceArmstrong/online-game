@@ -15,9 +15,9 @@ const worldCreator = game => {
 
 const createMap = game => {
   let groundTiles = []
-  for (let i = 0; i <= width / 64 + 1; i++) {
-    for (let j = 0; j <= height / 64 + 1; j++) {
-      const groundSprite = game.add.sprite(i * 64, j * 64, 'asphalt')
+  for (let i = 0; i <= width / 400 + 1; i++) {
+    for (let j = 0; j <= height / 400 + 1; j++) {
+      const groundSprite = game.add.sprite(i * 400, j * 400, 'space')
       groundTiles.push(groundSprite)
     }
   }

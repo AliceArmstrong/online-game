@@ -1,10 +1,10 @@
-import { ASSETS_URL } from '.'
+import { ASSETS_URL } from '.';
 
 const fileLoader = game => {
-  game.load.crossOrigin = 'Anonymous'
-  game.stage.backgroundColor = '#1E1E1E'
-  game.load.image('asphalt', `${ASSETS_URL}/sprites/asphalt.png`)
-  game.load.image('car', `${ASSETS_URL}/sprites/car.png`)
-}
+  game.load.crossOrigin = 'Anonymous';
+  game.stage.backgroundColor = '#1E1E1E';
+  game.load.image('space', `${ASSETS_URL}/sprites/space.png`);
+  game.load.image('ship', `${ASSETS_URL}/sprites/ship.png`);
+};
 
-export default fileLoader
+export default fileLoader;
