@@ -31,7 +31,7 @@ const config = {
         comments: false
       }
     }),
-    new HtmlWebpackPlugin({ template: './client/index.html' })
+    new HtmlWebpackPlugin({ template: './client/views/index.pug' })
   ]
 }
 
